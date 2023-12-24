@@ -1,0 +1,224 @@
+body {
+      font-family: Arial, sans-serif, ;
+      background-image: url("pro2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      margin: 0;
+      padding: 20px; 
+     
+          
+          
+ }
+ 
+ /* .title{
+      font-size: 66px; 
+      color: #44b0a6; 
+      text-align: center;
+      border-radius: 6px;
+
+  } */
+
+  .title {
+      text-align: center;
+      font-size: 56px;
+      text-transform: uppercase;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 4px 6px rgba(174, 0, 255, 0.2);
+      color: #ffffff; /* Color blanco */
+      transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+  }
+  
+  .title:hover {
+      color: #d7aaff; /* Cambia el color del texto al pasar el ratón */
+  }
+  
+
+.h6 {
+      color: #ffffff;
+      text-align: center;
+}
+
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     flex-wrap: wrap;
+     max-width: 900px;
+     margin: 20px auto;
+     background-color: #cc2a2a;
+     border-radius: 10px;
+     padding: 25px;
+     background-color: rgba(255, 255, 255, 0); /* Fondo completamente transparente */
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); background-color: rgba(255, 255, 255, 0); /* Fondo completamente transparente */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     font-size: 32px;
+}
+
+.boton {
+      display: inline-block;
+      padding: 7px 20px;
+      background-color: #ab5eef;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: all 0.9s ease-in-out;
+      
+}
+.boton:hover {
+      background-color: #d1bae8;
+      padding: 10px 20px;
+}
+/* estilos para los formularios */
+input {
+      width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      border: 1px solid #b83aea;
+}
+
+#resp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 200%;
+      margin: 0 auto;
+      color:rgb(10, 0, 0);
+      font-size: 22px;
+      background-color: rgb(237, 205, 229);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 7px 17px rgba(12, 2, 2, 0.5);
+    }
+.botones{
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+      margin-bottom: 15px;
+      margin-top: 10px;
+     
+}
+.but{
+      
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+      margin-bottom: 5px;
+      color: #ffffff;
+      
+     
+}
+.bot {
+      
+      display: inline-block;
+      padding: 8px 20px;
+      background-color: #f4e3ff;
+      color: #7800f8;
+      border-radius: 15px;
+      transition: all 0.9s ease-in-out;
+      flex: 1;
+      width: 100%; /* Set a fixed width */
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      
+}
+
+
+.ocultar{
+   visibility: hidden;
+}
+main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0); /* Fondo completamente transparente */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.p{
+      display: inline-block;
+      padding: 7px 20px;
+      background-color: #f152cf;
+      color: #fbfafa;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: all 0.9s ease-in-out; 
+}
+.po{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 0 auto;
+      color:rgb(10, 0, 0);
+      font-size: 16px;
+      background-color: rgb(244, 226, 239);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+}
+
+.m {
+      margin-right: 5px;
+      width: 100px;
+  }
+  .i{
+      float: right;
+      margin-left: 10px;
+      width: 165px;
+  }
+  .k{
+      color: #ffffff;
+      text-align: center;
+  }
+  /* .global-navigation {
+      background-color: #7f518d;
+      bottom: 0;
+      box-shadow: 0px 3px 12px 0px rgba(92, 9, 152, 0.3);
+      color: #000000;
+      display:
+      flex-direction column;
+      font-family: rubik, helvetica, arial, sans-serif;
+      justify-content: space-between;
+      left: 0;
+      padding: 22px 0 19px;
+      position: fixed;
+      top: 0;
+      width: 88px;
+      z-index: 800;
+    } */
+
+    .boton-regreso {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #c36eff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease-in-out;
+  }
+  
+  .boton-regreso:hover {
+      background-color: #2980b9;
+  }
+
+   
+ 
+  
+  
+
+  
+
+  
+  
+  
